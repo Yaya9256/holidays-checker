@@ -83,7 +83,7 @@ sprava2 = ("All the best to yours today " + str(vek) +
 sprava3 = "NO MESSAGE"
 
 # It opens and retrieves the data needed to log in to the e-mail.
-with open("C:\laragon\www\GIT-HUB\sviatky\mail copy.txt") as file:
+with open("mail copy.txt") as file:
     for line in file:
         account = line.split(",")
         ucet, passw = account[0], account[1]
@@ -108,7 +108,7 @@ else:
     pmonth = str(month)
 
 # program logic, open file reads data, compares and evaluates, further controls the program.
-with open("C:\laragon\www\GIT-HUB\sviatky\data copy.txt") as file:
+with open("data copy.txt") as file:
     for line in file:
         data = line.split(",")
         den, mesiac, rok, meno, sviatok, mail = data[0], data[1], data[2], data[3], data[4], data[5]
