@@ -2,3 +2,5 @@
 11,11,1964,MOM,BIRTHDAY,harry.example@gmail.com
 11,11,1964,MOM,BIRTHDAY,dad.example@gmail.com
 05,09,2000,LABOR DAY,DAY,harry.example@gmail.com
+06,07,2000,ROBERT,DAY OF NAME,harry.example@gmail.com
+06,07,2000,ROBERT,DAY OF NAME,mom.example@gmail.com
